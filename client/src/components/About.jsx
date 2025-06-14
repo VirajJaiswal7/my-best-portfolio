@@ -4,7 +4,7 @@ import { GoFileCode } from "react-icons/go";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaUpwork } from "react-icons/fa6";
-import img3 from "./src/assets/img3.jpg"
+import img3 from "../assets/img3.jpg"
 
 const About = () => {
   const myKnowledge = [

@@ -1,8 +1,8 @@
 import { GrServices } from "react-icons/gr";
-import webdesign from "./src/assets/web-design.png";
-import backendcoding from "./src/assets/backend-coding.png";
-import computer from "./src/assets/computer.png";
-import design from "./src/assets/design.png";
+import webdesign from "../assets/web-design.png";
+import backendcoding from "../assets/backend-coding.png";
+import computer from "../assets/computer.png";
+import design from "../assets/design.png";
 
 const Services = () => {
   const myServices = [

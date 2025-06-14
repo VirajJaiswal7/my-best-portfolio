@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { NavLink, useLocation } from "react-router-dom";
 import { setNavbar } from "../redux/navbarSlice";
 import { useEffect } from "react";
-import img3 from "./src/assets/img3.jpg"
+import img3 from "../assets/img3.jpg"
 
 const Hero = () => {
   const mySkills = [
