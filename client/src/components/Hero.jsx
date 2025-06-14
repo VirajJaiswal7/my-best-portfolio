@@ -41,7 +41,7 @@ const Hero = () => {
           </button>
         </NavLink> */}
         <a
-          href="./src/assets/certificate-pw.pdf"
+          href="/certificate-pw.pdf"
           download
           className="flex items-center gap-2 px-6 py-2 border border-gray-700 rounded-full"
         >
