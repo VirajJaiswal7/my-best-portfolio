@@ -1,61 +1,46 @@
 import React from "react";
+import project from "./src/assets/project.png";
 
 const Projects = () => {
   const myProject = [
     {
-      image: "./src/assets/project.png",
+      image: project,
       link: "https://blog-app-one-black-86.vercel.app/",
     },
     {
-      image: "./src/assets/project.png",
+      image: project,
       link: "https://blog-app-one-black-86.vercel.app/",
     },
     {
-      image: "./src/assets/project.png",
+      image: project,
       link: "https://blog-app-one-black-86.vercel.app/",
     },
     {
-      image: "./src/assets/project.png",
+      image: project,
       link: "https://blog-app-one-black-86.vercel.app/",
     },
     {
-      image: "./src/assets/project.png",
+      image: project,
       link: "https://blog-app-one-black-86.vercel.app/",
     },
     {
-      image: "./src/assets/project.png",
+      image: project,
       link: "https://blog-app-one-black-86.vercel.app/",
     },
     {
-      image: "./src/assets/project.png",
+      image: project,
       link: "https://blog-app-one-black-86.vercel.app/",
     },
     {
-      image: "./src/assets/project.png",
+      image: project,
       link: "https://blog-app-one-black-86.vercel.app/",
     },
     {
-      image: "./src/assets/project.png",
+      image: project,
       link: "https://blog-app-one-black-86.vercel.app/",
     },
     {
-      image: "./src/assets/project.png",
-      link: "https://blog-app-one-black-86.vercel.app/",
-    },
-    {
-      image: "./src/assets/project.png",
-      link: "https://blog-app-one-black-86.vercel.app/",
-    },
-    {
-      image: "./src/assets/project.png",
-      link: "https://blog-app-one-black-86.vercel.app/",
-    },
-    {
-      image: "./src/assets/project.png",
-      link: "https://blog-app-one-black-86.vercel.app/",
-    },
-    {
-      image: "./src/assets/project.png",
+      image: project,
       link: "https://blog-app-one-black-86.vercel.app/",
     },
   ];
@@ -66,7 +51,9 @@ const Projects = () => {
     >
       {/* create a project image and this image hidden link click than open project */}
       <div className="space-y-10">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-center">My Projects</h1>
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-center">
+          My Projects
+        </h1>
         <p className="text-center">
           I have built several exciting and high-quality projects that showcase
           my skills as a MERN Stack developer. <br /> From a real-time chat app

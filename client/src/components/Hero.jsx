@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { NavLink, useLocation } from "react-router-dom";
 import { setNavbar } from "../redux/navbarSlice";
 import { useEffect } from "react";
+import img3 from "./src/assets/img3.jpg"
 
 const Hero = () => {
   const mySkills = [
@@ -21,7 +22,7 @@ const Hero = () => {
       className=" h-full md:h-screen  max-w-7xl mx-auto flex flex-col items-center pt-20 gap-8"
     >
       <img
-        src="./src/assets/img3.jpg"
+        src={img3}
         alt=""
         className="w-40 h-40 object-cover rounded-full"
       />

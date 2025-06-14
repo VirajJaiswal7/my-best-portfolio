@@ -4,6 +4,7 @@ import { GoFileCode } from "react-icons/go";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaUpwork } from "react-icons/fa6";
+import img3 from "./src/assets/img3.jpg"
 
 const About = () => {
   const myKnowledge = [
@@ -31,7 +32,7 @@ const About = () => {
     >
       <div className="flex items-center h-full md:h-screen w-full md:w-[35%] justify-center">
         <img
-          src="./src/assets/img3.jpg"
+          src={img3}
           alt=""
           className=" md:w-80 h-100 object-cover rounded-xl"
         />

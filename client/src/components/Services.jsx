@@ -1,26 +1,30 @@
 import { GrServices } from "react-icons/gr";
+import webdesign from "./src/assets/web-design.png";
+import backendcoding from "./src/assets/backend-coding.png";
+import computer from "./src/assets/computer.png";
+import design from "./src/assets/design.png";
 
 const Services = () => {
   const myServices = [
     {
-      image: "./src/assets/web-design.png",
+      image: webdesign,
       title: "Frontend",
       language:
         "HTML, CSS, JavaScript, Shadcn Ui, Tailwind Css, Bootstrap, Prebuilt Ui, React Js",
     },
     {
-      image: "./src/assets/backend-coding.png",
+      image: backendcoding,
       title: "Backend",
       language: "Node Js, Express Js, JavaScript, MongoDb",
     },
     {
-      image: "./src/assets/computer.png",
+      image: computer,
       title: "Full Stack",
       language:
         "HTML, CSS, JavaScript, Shadcn Ui, Tailwind Css, Bootstrap, Prebuilt Ui, React Js, Node Js, Express Js, MongoDb",
     },
     {
-      image: "./src/assets/design.png",
+      image: design,
       title: "Ui / Ux",
       language:
         "HTML, CSS, JavaScript, Shadcn Ui, Tailwind Css, Bootstrap, Prebuilt Ui, React Js",
